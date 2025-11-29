@@ -319,8 +319,30 @@
     </div>
 
     <script>
-        // Fleet data storage
-        let fleets = [];
+        // Fleet data storage with dummy data
+        let fleets = [
+            {
+                id: 1,
+                regNo: 'MH-12-AB-1234',
+                category: 'Car',
+                driverName: 'Rajesh Kumar',
+                isAvailable: true
+            },
+            {
+                id: 2,
+                regNo: 'DL-8-CD-5678',
+                category: 'Truck',
+                driverName: 'Amit Singh',
+                isAvailable: false
+            },
+            {
+                id: 3,
+                regNo: 'KA-01-EF-9012',
+                category: 'Bus',
+                driverName: 'Priya Sharma',
+                isAvailable: true
+            }
+        ];
         const vehicleImage = 'https://i.pinimg.com/originals/c4/75/4a/c4754a3f9880018d880625522ebeaf1c.png';
         
         // Add Fleet
